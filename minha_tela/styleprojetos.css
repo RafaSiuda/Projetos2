@@ -1,0 +1,123 @@
+
+
+main div {
+    display: inline-block;
+    padding: 150px;
+    background-color: white;
+    border-radius: 30px;
+    position: relative;
+    justify-content: ;
+    margin-top: 20px;
+    margin-left: 15px;
+    left: 280px;    
+   
+}
+
+main div:hover{
+    box-shadow: 0px 0px 20px rgba(255, 166, 0, 0.223);
+    transition: 0.3s;
+    cursor: pointer;
+    background-color: #ffe10218;
+}
+
+body{
+    background-image: url(imagens/fundo.jpg);
+    background-size: cover;
+    
+}
+
+.um{
+    animation-name:slide ;
+    animation-duration:2s ;
+    transform: translateX(90px);
+    animation-fill-mode: forwards;
+}
+.dois{
+    animation-name:slide ;
+    animation-duration:5s ;
+    transform: translateX(90px);
+    animation-fill-mode: forwards;
+}
+.tres{
+    animation-name:slide ;
+    animation-duration:7s ;
+    transform: translateX(90px);
+    animation-fill-mode: forwards;
+}
+
+h1{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align:center;
+    margin-top: 7%;
+    animation-name:slide ;
+    animation-duration:1s ;
+    transform: translateX(-40px);
+    animation-fill-mode: forwards;
+    
+    
+    
+}
+
+.inicio3{
+    display: inline-block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    margin-top: 20px;
+    left: 665px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 25px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: orange;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    animation-name:slide ;
+    animation-duration:1s ;
+    transform: translateX(-40px);
+    animation-fill-mode: forwards;
+    
+}
+
+.inicio3:hover{
+    background-color: #02ff02;
+    transition: 0.5s;
+    box-shadow: 0px 0px 30px #02ff02;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+@keyframes slide{
+    from{
+    opacity: 0;
+    }
+    to{
+    transform: translateX(0px);    
+    opacity: 1;
+    }
+}
+
+h2{
+    display: inline-block;
+    position: relative;
+    color: white;
+    margin-left: 150px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    left: 220px;
+    animation-name:slide ;
+    animation-duration:1s ;
+    transform: translateX(-40px);
+    animation-fill-mode: forwards;
+}
+
+h2:hover{
+    cursor: pointer;
+    text-shadow: 0px 0px 20px orange;
+    color: orange;
+    transition: 0.3s;
+}

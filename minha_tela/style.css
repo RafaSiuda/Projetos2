@@ -1,0 +1,216 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+
+body{
+    background-image: url(imagens/fundo.jpg) ;
+    height: 98vh;
+    background-position: center center;
+}
+.fundo{
+    
+    background-size: cover;
+    width:1550px;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+}
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 45px;
+    padding-left:;
+    padding-right;
+    margin:; 
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover{
+    text-decoration:;
+    background-color: #dd8202;
+    padding: 15px;
+    border-radius: 20px 0px;
+    box-shadow:0px 0px 20px #ffa600ff;
+    transition:0.3s;   
+}
+
+
+nav li{
+    list-style: none;
+    display:inline-block;
+    color: rgb(187, 255, 0);
+    padding-right: 80px;
+    font-size: 20px;
+    font-weight:;
+    background-color:;
+}
+
+nav h2{
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+    letter-spacing: 5px;
+    margin-left: 50px;
+}
+
+.folio{
+    color: #dd8202;
+    text-shadow: 0px 0px 20px #ffa600a8;
+}
+
+.folio:hover{
+    text-shadow: 0px 0px 40px #2bff00 ;
+    transition: 0.5s;
+    color: #2bff00;
+}
+
+.botao{
+    font-size: 25px;
+    background-color: #dd8202;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.botao:hover{
+    box-shadow: 0px, 0px, 20px #dd8202;
+    background-color: #dd8202;
+    transition: 0.3s;  
+    border-radius: 10px;
+}
+
+.apres{
+    font-size: 40px;
+    color: white;
+    padding: 20px 20px 20px 110px ;
+    margin-top: 50px;
+}
+
+.siuda{
+    color: #dd8202;
+    cursor: pointer;
+}
+
+.siuda:hover{
+    text-shadow: 0px 0px 30px #2bff00;
+    color: #2bff00;
+    transition: 1s; 
+}
+
+h1{
+    display: inline-block;
+    margin-top: 40px;
+    padding-left;
+    
+}
+
+
+h4{
+    margin-top: 20px;
+    font-size: 30px;
+    color: #dd8202;
+}
+
+.submit{
+    cursor: pointer;
+    padding: 20px 30px;
+    border-radius:25px;
+    font-weight: bold;
+    color:white;
+    border: none;
+    background-color: #dd8202;
+    font-size: px; 
+}
+
+.submit:hover{
+    background-color: #2bff00;
+    transition:  0.5s;
+    box-shadow: 0px 0px 20px #3aff04;
+    color: white;
+}
+
+.email{
+    padding-left: 20px;
+    width: ;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+    max-width: 100%;
+    font-size: 20px;
+}
+
+.escrever{
+    left: 0px;
+    top: 20px;
+    position: relative;
+}
+
+.escrever form input:first-child{
+    display: inline-block;
+    width: 15%;
+    padding: 14px 130px;
+    outline: none;
+}
+
+.escrever form input:last-child{
+    display: inline-block;
+    outline: none;
+    position: relative;
+    width:;    
+    right: 119px;
+    bottom: 3px;
+}
+
+.animar{
+    
+    animation-name:slide ;
+    animation-duration:1s ;
+    transform: translateX(10px);
+    animation-fill-mode: forwards;
+    animation-timing-function:cubic-bezier(1, 0, 0, 1);
+}
+
+.equipe{
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    bottom: 50%;
+    margin-bottom: auto;
+    animation-name:slide ;
+    animation-duration:1s ;
+    transform: translateX(100px);
+    animation-fill-mode: forwards;
+}
+@keyframes slide{
+    from{
+    opacity: 0;
+    }
+    to{
+    transform: translateX(0px);    
+    opacity: 1;
+    
+    }
+}
+
+@keyframes equipe2{
+    to{
+        transform: perspective();
+    }
+}
+
+
+
+
+
+
+
+
+
