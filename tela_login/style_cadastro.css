@@ -173,6 +173,14 @@ h1{
     color: aliceblue;
 }
 
+input[type="date"]::-webkit-calendar-picker-indicator {
+    cursor: pointer;
+    filter: invert(0.1) brightness(100%) sepia(80%) saturate(10000%) hue-rotate(20deg) opacity(0.5);
+  }
+
+  input[type="date"]{
+    color: rgba(234, 66, 214, 0.747) ;
+  }
 
 
 @media only screen and (max-width:800px){
