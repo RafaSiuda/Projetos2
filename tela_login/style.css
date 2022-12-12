@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
+
+:root{
+
+}
+body{
+    margin: 0px;
+}
+
+.main-login{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(195, 147, 240);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.right-login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-login{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ec6dee84;
+    flex-direction: column;
+    padding: 30px ;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.222);
+}
+
+.textfield{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: center;
+}
+
+.textfield input{
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: rgb(249, 191, 242);
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.118);
+    color: rgb(83, 5, 156);
+    font-size:12pt;
+    outline: none;
+
+}
+
+.textfield label{
+    font-family: 'Forum';
+    font-family: 'Forum';
+    background: linear-gradient(to left, rgba(97, 24, 51, 38), rgba(237, 59, 125, 93));
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    display: inline-block;
+
+    font-size: large;
+    font-weight: 600;
+}
+
+.card-login h1{
+    margin: 0;
+}
+
+h1{
+    font-family: 'Forum';
+    background: linear-gradient(to left, rgba(97, 24, 51, 38), rgba(237, 59, 125, 93));
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    display: inline-block;
+}
+
+/*.fill{
+    background: linear-gradient(to left, rgba(97, 24, 51, 38), rgba(237, 59, 125, 93));
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    display: inline-block;
+}*/
+
+.btn-login{
+    padding: 10px 30px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color:rgb(234, 66, 214) ;
+    font-family: 'Forum';
+    font-size: 15pt;
+    color: rgb(137, 1, 83);
+    cursor: pointer;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.118);
+}
+
+.btn-login:hover{
+    background-color: rgb(181, 103, 254);
+    color: aliceblue;
+    transition: 0.3s;
+}
+
+.textfield input::placeholder{
+    color: rgba(255, 0, 43, 0.323);
+}
