@@ -7,6 +7,8 @@
 
 body{
     margin: 0px;
+    background-image: url(image/erros-gestao-do-salao-beleza.jpg);
+    background-size: cover;
 }
 
 body *{
@@ -16,7 +18,7 @@ body *{
 .main-cadastro{
     width: 100vw;
     height: 100vh;
-    background-color: rgb(195, 147, 240);
+    background-color: rgba(195, 147, 240, 0.608);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -46,7 +48,7 @@ body *{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #ec6dee84;
+    background: #ec6deecc;
     flex-direction: column;
     padding: 30px 30px;
     border-radius: 20px;
