@@ -11,9 +11,8 @@ body{
     background-position: center center;
 }
 .fundo{
-    
-    background-size: cover;
-    width:1550px;
+    width:100vw;
+    height: ;
     box-sizing: border-box;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
 }
@@ -27,6 +26,7 @@ nav{
     padding-left:;
     padding-right;
     margin:; 
+    width: 90vw;
 }
 
 nav a{
@@ -78,6 +78,7 @@ nav h2{
     background-color: #dd8202;
     padding: 20px;
     border-radius: 20px;
+    width: 12%;
 }
 
 .botao:hover{
