@@ -1,0 +1,124 @@
+h1{
+    position: relative;
+    margin-top: 70px;
+    left: 500px;
+    font-size: 50px;
+    color:white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    animation-name:slide ;
+    animation-duration:1s ;
+    transform: translateX(-40px);
+    animation-fill-mode: forwards;
+}
+
+body{
+    background-image: url(imagens/fundo.jpg);
+    height: 80%;
+    width:70%;
+    background-size: cover;
+}
+
+.inicio3{
+    display: inline-block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 675px;
+    margin-bottom: 40px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 25px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: orange;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    animation-name:slide ;
+    animation-duration:1s ;
+    transform: translateX(-40px);
+    animation-fill-mode: forwards;
+    
+}
+
+.inicio3:hover{
+    background-color: #02ff02;
+    transition: 0.5s;
+    box-shadow: 0px 0px 30px #02ff02;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+.topicos{
+    display: inline-block;
+    font-size: 20px;
+    position: relative;
+    color: orange;
+    list-style:none;
+    text-align: center;
+    cursor: pointer;
+    left: 225px;
+    margin-bottom: px;
+    padding:px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    animation-name:slide ;
+    animation-duration:3s ;
+    transform: translateY(-40px);
+    animation-fill-mode: forwards;
+   
+}
+
+.topicos li h2:hover{
+    transition: 0.3s;
+    text-decoration: underline;
+    text-shadow: 0px 0px 30px #02ff02;
+    color:#02ff02;
+    
+
+}
+
+.minhatrag{
+    display: block ;
+    text-align: right;
+    font-size: 20px;
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    position:relative;
+    text-align: center;
+    
+}
+.minhatrag:hover{
+    display: block;
+    background-color: rgba(255, 255, 255, 0.751);
+    box-shadow: 10px 10px 0px orange;
+    transition: 1.5s;
+}
+
+
+
+
+@keyframes slide{
+    from{
+    opacity: 0;
+    }
+    to{
+    transform: translateX(0px);    
+    opacity: 1;
+    }
+}
+
+span{
+    color: orange;
+}
+
+span:hover{
+    color:#02ff02;
+    text-shadow: 0px 0px 30px #02ff02;
+    cursor: pointer;
+    transition: 0.5s;
+}

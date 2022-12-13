@@ -1,0 +1,112 @@
+body{
+    background-image: url(imagens/fundo.jpg);
+    height: 80%;
+    width:70%;
+
+    background-size: cover;
+}
+h1{
+    display: inline-flex;
+    position: relative;
+    margin-top: 22%;
+    left: 570px;
+    font-size: 50px;
+    color:white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    animation-name:slide ;
+    animation-duration:1s ;
+    transform: translateX(-40px);
+    animation-fill-mode: forwards;
+}
+
+h2{
+    display: block;
+    position: relative;
+    margin-top: 20px;
+    left: 600px;
+    font-size: 25px;
+    color:white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    animation-name:slide ;
+    animation-duration:1s ;
+    transform: translateX(-40px);
+    animation-fill-mode: forwards;
+}
+
+.whats{
+    display: block;
+    left: 560px;
+    top:350px ;
+    margin-bottom: 50px;
+    position:fixed;
+    animation-name:slide ;
+    animation-duration:1s ;
+    transform: translateX(-40px);
+    animation-fill-mode: forwards;
+}
+
+.whats:hover{
+    
+    transition: 0.5s;
+    
+    box-decoration-break: slice;
+    color: white;
+    filter: blur(1px) opacity(0.5); 
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.inicio{
+    display: inline-block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    margin-top: 30px;
+    left: 650px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 25px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: orange;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    animation-name:slide ;
+    animation-duration:1s ;
+    transform: translateX(-40px);
+    animation-fill-mode: forwards;
+    
+}
+
+.inicio:hover{
+    background-color: #02ff02;
+    transition: 0.5s;
+    box-shadow: 0px 0px 30px #02ff02;
+    color: white;
+}
+
+span{
+    display: inline-flex;
+    color: orange;
+}
+
+span:hover{
+    display: inline;
+    transition: 0.5s;
+    text-shadow: 0px 0px 30px #02ce02;
+    color: #02ce02;
+}
+
+@keyframes slide{
+    from{
+    opacity: 0;
+    }
+    to{
+    transform: translateX(0px);    
+    opacity: 1;
+    }
+}
+
+a{
+    text-decoration: none;
+}

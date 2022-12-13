@@ -1,0 +1,112 @@
+body{
+    background-image: url(imagens/fundo.jpg);
+    height: 80%;
+    width:70%;
+
+    background-size: cover;
+}
+
+.icones{
+    position: relative;
+    margin-top: %;
+    left: 53%;
+}
+
+.redes span{
+    color: orange;
+}
+
+
+h1{
+    position: relative;
+    margin-top: 200px;
+    left: 52%;
+    font-size: 50px;
+    color:white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    animation-name:slide ;
+    animation-duration:1s ;
+    transform: translateX(-40px);
+    animation-fill-mode: forwards;
+}
+
+h2{
+    position: relative;
+    margin-top: 20px;
+    left: 650px;
+    font-size: 25px;
+    color:white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.icones .face:hover{
+    filter: blur(5px) opacity(0.5); 
+    cursor: pointer;
+    transition: 1s;
+    
+}
+
+.icones .linkedin:hover{
+    filter: blur(5px) opacity(0.5); 
+    cursor: pointer;
+    transition: 1s;
+}
+
+.icones .insta:hover{
+    filter: blur(5px) opacity(0.5); 
+    cursor: pointer;
+    transition: 1s;
+}
+
+.inicio{
+    display: block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    margin-top: 2%;
+    left: 64.5%;
+    text-align: center;
+    padding: 10px;
+    border-radius: 25px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: orange;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    animation-name:slide ;
+    animation-duration:1s ;
+    transform: translateX(-40px);
+    animation-fill-mode: forwards;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+.inicio:hover{
+    background-color: #02ff02;
+    transition: 0.5s;
+    box-shadow: 0px 0px 30px #02ff02;
+    color: white;
+}
+
+.animar{
+    
+    animation-name:slide ;
+    animation-duration:1s ;
+    transform: translateX(-40px);
+    animation-fill-mode: forwards;
+    
+}
+
+@keyframes slide{
+    from{
+    opacity: 0;
+    }
+    to{
+    transform: translateX(0px);    
+    opacity: 1;
+    }
+}
+

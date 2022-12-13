@@ -193,17 +193,7 @@ form{
     animation-timing-function:cubic-bezier(1, 0, 0, 1);
 }
 
-.equipe{
-    display: inline-block;
-    position: relative;
-    left: 50%;
-    bottom: 50%;
-    margin-bottom: auto;
-    animation-name:slide ;
-    animation-duration:1s ;
-    transform: translateX(100px);
-    animation-fill-mode: forwards;
-}
+
 @keyframes slide{
     from{
     opacity: 0;
@@ -221,7 +211,29 @@ form{
     }
 }
 
-@media only
+@media only screen and (max-width:960px){
+    .main-itens{
+        flex-direction: column;
+    }
+    .right-itens{
+        margin-top: 50px;
+        justify-content: center;
+    }
+    .left-itens{
+        justify-self: center;
+        text-align: center;
+    }
+
+    .escrever{
+        display: none;
+    }
+
+   .botao{
+    background-color: transparent;
+   }
+
+   
+
 
 
 
