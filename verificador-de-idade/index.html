@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Exercício</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="carregar()">
+    <header>
+        <h1> 
+            Verificador de Idade
+        </h1>
+    </header>
+    <section>
+        
+        <div id="idade">
+            <p>Ano de Nascimento
+                <input type="number" id="txtano">
+            </p> </br>
+            <p>
+                Sexo 
+                
+                <input type="radio" id="masc" name="radsex" checked>
+                <label for="radsex">Masculino</label>
+
+                <input type="radio" id="masc" name="radsex">
+                <label for="radsex">Feminino</label>
+            </p> <br>
+
+            <button id="verific" onclick="verificar()">Verificar</button>
+            
+        </div>
+        <div id="res">
+           <h4>Preencha os dados acima para ter o resultado</h4> 
+        </div>
+    </section>
+    <footer>
+       <p>&copy;Rafael Siuda</p>
+    </footer>
+
+    <script src="script.js"></script>    
+</body>
+</html>
