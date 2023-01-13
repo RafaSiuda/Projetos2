@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+        background-color: rgba(136, 136, 136, 0.508);
+        font-family: Arial, Helvetica, sans-serif;
+        background-image: url("imagens/fundo2.png");
+        background-position: top;
+        color: rgb(0, 0, 0);
+    }
+
+    .conteiner{
+        width: 800px;
+        margin: auto;
+        margin-top: 60px;
+        
+    }
+
+    .minhatrag{
+        background-color: rgba(255, 255, 255, 0.349);
+        padding: 30px;
+        border-radius: 10px;
+        margin:20px 0 20px;
+        line-height: 35px;
+    }
+
+    .minhatrag:hover{
+        box-shadow: 10px 10px 0px orange;
+        background-color: white;
+        transition: 1s;
+    }
+
+    h1{
+        color: orange;
+        text-align: center;
+        margin: 30px;
+        background-color: white;
+        padding: 15px;
+        border-radius: 15px;
+    }
+
+    h1:hover{
+        
+        text-shadow: 0px 0px 20px orange;
+        transition: 0.4s;
+        cursor: default;
+    }
+
+    li h2{
+        list-style: none;
+        text-align: center;
+        color: rgb(255, 177, 33);
+    }
+
+    li h2:hover{
+        color: rgb(0, 255, 0);
+        text-shadow: 0px 0px 20px rgb(0, 255, 0);
+        transition: 0.4s;
+        cursor: default;
+    }
+
+    ul li{
+        list-style: none;
+    }
+
+    .inicio{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: ;
+        width: 100px;
+        margin-top: 10px;
+        background-color: rgb(255, 211, 130);
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        font-size: 14pt;
+        border: none;
+        border-radius: 10px;
+        margin-left: 350px;
+        margin: 10px 0px 50px 350px;
+    }
+
+    .inicio a{
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        padding: 15px;
+        
+    }
+    .inicio a:hover{
+        color: white;
+    }
+    
+    .inicio a{
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+    }
+    
+    .inicio:hover{
+        background-color: orange;
+        box-shadow: 0px 0px 20px orange;
+        transition: 0.3s;
+        cursor: pointer;
+    }
